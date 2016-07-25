@@ -1,0 +1,290 @@
+/*INICIO RESETS ELEMENTOS HTML*/
+
+body{
+    color:#000;
+    font-family: 'Abel', sans-serif;
+    font-size:16px;
+}
+h1, h2{
+    font-size: 21px;
+    font-weight: bold;
+}
+h3{
+    font-size:16px;
+    font-weight: bold;
+}
+h4{
+    font-size:22px;
+    font-weight: bold;
+}
+hr{
+    border-color: #D4D4D4;
+}
+article{
+    margin: 20px 0;
+}
+iframe{
+    height:100%;
+    width:100%;
+    position: absolute;
+}
+fieldset{
+    margin: 15px 0;
+}
+/* FIN RESETS */
+
+/*INICIO HEADER SUPERIOR (NEGRO)*/
+header #usuario{
+    background: #000;
+    color: #fff;
+    height: 40px;
+}
+
+header #sitio{
+    background-color: #ebebeb;
+    height: 175px;
+    padding: 10px 0;
+}
+
+header li{
+    margin: 10px 0;
+    padding: 0 20px;
+    font-size: 12px;
+    font-family: 'Abel', sans-serif;
+}
+header li:not(:last-child){
+    border-right: 1px solid #ccc;
+}
+.navbar img{
+    width: 20px;
+}
+.items{
+    background-color: #000000;
+    background-image: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    border-color: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    height: 16px;
+    margin-left: 20px;
+    opacity: 1;
+    padding: 0 0 2px;
+    text-align: center;
+    width: 25px;
+}
+/*FIN HEADER SUPERIOR (NENGRO)*/
+
+/* INICIO HEADER INFERIOR (GRIS) */
+#logo{
+    color: #000;
+    font-family: 'Fredoka One', cursive;
+    font-size: 42px;
+}
+#superior{
+    font-size:11px;
+}
+#superior .nav{
+    margin-top:20px;
+}
+#superior li svg{
+    margin: 0 5px;
+}
+
+.secciones div{
+    width: 20%;
+    float: left;
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+.secciones div:last-child{
+    border-right: 1px solid #000;
+}
+.secciones div:first-child{
+    font-size: 17px;
+}
+.activo{
+    background-color: #000;
+    color: #fff;
+}
+.secciones div.activo::after{
+    border-color: transparent transparent transparent #000;
+    border-style: solid;
+    border-width: 15px;
+    clear: both;
+    content: "";
+    height: 0;
+    left: 100%;
+    position: absolute;
+    top: 25%;
+    width: 0;
+}
+.secciones div span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height:normal;
+}
+
+/* FIN HEADER INFERIOR (GRIS) */
+
+
+/*INICIO BREADCRUMB */
+#breadcrumb{
+    color: #8A8A8A;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#breadcrumb span{
+    margin: 0 20px;
+}
+
+#breadcrumb strong{
+    color: #000;
+}
+/*FIN BREADCRUMB */
+
+/* INICIO CONTENIDO PÁGINA */
+#contenedor-video{
+    background-color: #3d3d3d;
+    background-image: none;
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-color: #c8c8c8;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    height: 383px;
+    position: relative;
+}
+
+#menu-galeria div{
+    background-color: #000;
+    border-top: 2px solid #fff;
+    color: #fff;
+    height: 55px;
+    line-height: 55px;
+    font-family: 'Abel', sans-serif;
+}
+#menu-galeria div:first-child{
+    border-right: 1px solid #fff;
+}
+#menu-galeria div:last-child{
+    border-left:1px solid #fff;
+}
+.galleryCont{
+    display: none;
+}
+.hidden-gallery-images{
+    display: none;
+}
+.open-gallery, .open-maps{
+    cursor: pointer;
+}
+
+
+.descuento{
+    font-weight: bold;
+    font-size:14px;
+    line-height:14px;
+}
+.precio-regular{
+    text-decoration: line-through;
+}
+.precio-enlinea{
+    font-size: 17px;
+    font-weight: bold;
+}
+.agregar{
+    font-size: 14px;
+}
+.btn-black{
+    background-color: #000;
+    color:#fff;
+    border-width: 0;
+}
+.legales{
+    font-size: 11px;
+    font-style: italic;
+    line-height: 11px;
+    margin:15px 0;
+}
+.beneficios div{
+    border: 1px solid #000;
+    font-size: 11px;
+    border-radius: 3px;
+    line-height:12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 1px;
+    height: 61px;
+}
+.beneficios div p{
+    font-size:20px;
+    font-weight: bold;
+}
+.tarjetas{
+    border: 1px solid #000;
+    margin-top:40px;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.tarjetas .row .row{
+    margin-top: 10px;
+}
+.tarjetas img{
+    opacity:0.8;
+}
+/* FIN CONTENIDO PÁGINA */
+
+
+/* ININIO FOOTER */
+footer{
+    color: #fff;
+    margin-top:40px;
+}
+
+footer li,footer p{
+    font-size:14px;
+}
+footer ul{
+    margin-top: 20px!important;
+    padding-left: 5px;
+}
+footer li{
+    list-style: none;
+}
+footer .footer-superior{
+    background-color: #1A1A1A ;
+}
+
+footer .footer-superior img{
+    width: 158px;
+}
+
+footer .footer-inferior{
+    background-color: #000000;
+}
+
+footer .row{
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+footer .footer-header{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+}
+/* FIN FOOTER */
